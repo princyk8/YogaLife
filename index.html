@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="YogaLife - Simple yoga poses and wellness tips for beginners.">
+    <title>YogaLife | Find Your Balance</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#home" class="logo">Yoga<span>Life</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#poses">Yoga Poses</a>
+            <a href="#tips">Daily Tips</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">BREATHE · STRETCH · RELAX</p>
+                <h1>Find Your Balance.<br>Find Your Peace.</h1>
+                <p>
+                    Begin your wellness journey with simple yoga poses,
+                    mindful breathing, and small daily habits.
+                </p>
+                <a href="#poses" class="button">Explore Yoga Poses</a>
+            </div>
+
+            <div class="hero-art" aria-label="Yoga and wellness illustration">
+                <div class="sun"></div>
+                <div class="person">🧘🏻‍♀️</div>
+                <div class="art-caption">Your time. Your peace.</div>
+            </div>
+        </section>
+
+        <section class="section about" id="about">
+            <p class="eyebrow">WELCOME TO YOGALIFE</p>
+            <h2>A Little Yoga Goes a Long Way</h2>
+            <p class="section-intro">
+                Yoga combines movement, breathing, and mindfulness.
+                Start at your own pace and make time for yourself every day.
+            </p>
+
+            <div class="benefits">
+                <article class="benefit">
+                    <span>🌿</span>
+                    <h3>Relax Your Mind</h3>
+                    <p>Take a break from your busy day and practise calm breathing.</p>
+                </article>
+
+                <article class="benefit">
+                    <span>🌸</span>
+                    <h3>Move Your Body</h3>
+                    <p>Explore gentle stretches and comfortable movements.</p>
+                </article>
+
+                <article class="benefit">
+                    <span>☀️</span>
+                    <h3>Build a Routine</h3>
+                    <p>Make a little time each day for your wellbeing.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section poses-section" id="poses">
+            <p class="eyebrow">START WITH THE BASICS</p>
+            <h2>Yoga Poses for Beginners</h2>
+            <p class="section-intro">
+                Explore these simple poses and learn their benefits.
+            </p>
+
+            <div class="pose-grid">
+                <article class="pose-card">
+                    <div class="pose-image pose-one">🌄</div>
+                    <div class="pose-content">
+                        <span class="tag">Beginner</span>
+                        <h3>Mountain Pose</h3>
+                        <p class="sanskrit">Tadasana</p>
+                        <p>Stand tall, maintain your balance, and focus on your posture.</p>
+                    </div>
+                </article>
+
+                <article class="pose-card">
+                    <div class="pose-image pose-two">🌳</div>
+                    <div class="pose-content">
+                        <span class="tag">Beginner</span>
+                        <h3>Tree Pose</h3>
+                        <p class="sanskrit">Vrikshasana</p>
+                        <p>Practise balance and concentration while standing on one leg.</p>
+                    </div>
+                </article>
+
+                <article class="pose-card">
+                    <div class="pose-image pose-three">🌷</div>
+                    <div class="pose-content">
+                        <span class="tag">Gentle</span>
+                        <h3>Child's Pose</h3>
+                        <p class="sanskrit">Balasana</p>
+                        <p>Rest comfortably and gently stretch your back and hips.</p>
+                    </div>
+                </article>
+
+                <article class="pose-card">
+                    <div class="pose-image pose-four">🌞</div>
+                    <div class="pose-content">
+                        <span class="tag">Beginner</span>
+                        <h3>Cat-Cow Pose</h3>
+                        <p class="sanskrit">Marjaryasana-Bitilasana</p>
+                        <p>Move gently between two positions to mobilise your spine.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="tip-section" id="tips">
+            <p class="eyebrow">A MOMENT FOR YOURSELF</p>
+            <h2>Your Daily Yoga Reminder</h2>
+            <p id="dailyTip" aria-live="polite">
+                Take a deep breath. Relax your shoulders. Begin again.
+            </p>
+            <button class="button" id="tipButton">Show Another Tip</button>
+        </section>
+
+        <section class="section routine">
+            <p class="eyebrow">KEEP IT SIMPLE</p>
+            <h2>Your 10-Minute Routine</h2>
+
+            <div class="routine-list">
+                <div><span>01</span><p><strong>2 minutes</strong><br>Slow, comfortable breathing</p></div>
+                <div><span>02</span><p><strong>3 minutes</strong><br>Gentle stretching</p></div>
+                <div><span>03</span><p><strong>3 minutes</strong><br>Practise beginner poses</p></div>
+                <div><span>04</span><p><strong>2 minutes</strong><br>Rest and relax</p></div>
+            </div>
+            <p class="note">Adjust the routine to your comfort. Stop if a movement causes pain or dizziness.</p>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#home" class="logo">Yoga<span>Life</span></a>
+        <p>Find a little peace in every day.</p>
+        <p class="copyright">© <span id="year"></span> YogaLife. Student project.</p>
+    </footer>
+
+</body>
+</html>
